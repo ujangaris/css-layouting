@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dimensi</title>
+    <style>
+      .visible {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+      }
+      .auto {
+        margin-left: 250px;
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        overflow: auto;
+      }
+      .hidden {
+        margin-left: 500px;
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        overflow: hidden;
+      }
+      .scroll {
+        margin-left: 750px;
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="visible">
+      <h1>visible</h1>
+      "value default dari element,kalau ada content yang keluar dari elementnya
+      pasti diperlihatkan" <br />
+      <hr />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam explicabo
+      earum debitis distinctio libero soluta rem, ipsam delectus at cumque iste
+      laudantium quaerat dolores, sunt fugiat voluptate beatae consequatur amet
+      aspernatur aliquam quod exercitationem quam? Cupiditate obcaecati
+      doloribus tempore aliquam. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Facere, quam?
+    </div>
+    <div class="auto">
+      <h1>auto</h1>
+      "* akan menambahkan scroll ketika contenya sudah tidak cukup lagi * jika
+      kontennya cukup tidak akan menambahkan scroll" <br />
+      <hr />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam explicabo
+      earum debitis distinctio libero soluta rem, ipsam delectus at cumque iste
+      laudantium quaerat dolores, sunt fugiat voluptate beatae consequatur amet
+      aspernatur aliquam quod exercitationem quam? Cupiditate obcaecati
+      doloribus tempore aliquam. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Facere, quam?
+    </div>
+    <div class="hidden">
+      <h1>hidden</h1>
+      "content akan disembunyikan jika content yang keluar dari parentnya akan
+      disembunyikan" <br />
+      <hr />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam explicabo
+      earum debitis distinctio libero soluta rem, ipsam delectus at cumque iste
+      laudantium quaerat dolores, sunt fugiat voluptate beatae consequatur amet
+      aspernatur aliquam quod exercitationem quam? Cupiditate obcaecati
+      doloribus tempore aliquam. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Facere, quam?
+    </div>
+    <div class="scroll">
+      <h1>scroll</h1>
+      "akan memunculkan scroll jika contentnya melebihi parent, namun jika cukup
+      pun akan tetap menampilkan scroll" <br />
+      <hr />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+      voluptates ab qui veritatis voluptatem possimus iure consectetur est
+      inventore, nesciunt fugiat sapiente earum eveniet optio deserunt delectus,
+      eligendi magnam iste.
+    </div>
+  </body>
+</html>
