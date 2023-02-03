@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Dispaly</title>
+    <style>
+      .navigasi {
+        background-color: #f1f1f1;
+      }
+
+      /* contoh  inline */
+      /* a yang tdnya dibungkus didalam li yaitu blok bisa kita rubah kembali menjadi inline */
+      .aside li {
+        display: inline;
+      }
+      /* akhir contoh  inline */
+      /* contoh  block */
+      .main {
+        width: 600px;
+        background-color: aquamarine;
+      }
+      .main h2 {
+        background-color: pink;
+      }
+      /* akhir contoh block */
+
+      .main span {
+        background-color: yellow;
+      }
+      /* contoh inline block */
+      .navigasi a {
+        background-color: pink;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+      }
+      /* akhir contoh inline block */
+      /* contoh none */
+      /* gambarnya ilang kalau dipsang display:none */
+      img {
+        display: none;
+      }
+
+      /* akhir contoh none */
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Selamat Datang di Website Saya</h1>
+    </div>
+    <div class="navigasi">
+      <h2>Daftar link</h2>
+      <a href="#">Link 1 ini adalah</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+    </div>
+    <div class="aside">
+      <h2>Daftar Link Sidebar</h2>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Link 5</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <h2>Judul Artikel</h2>
+      <img
+        src="img/logo-serepet 4.png"
+        alt="logo"
+        height="150px"
+        width="150px"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam hic
+        officiis iusto veritatis
+        <span> consequuntur voluptatum aspernatur</span> rem temporibus dicta
+        molestias.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nobis
+        reiciendis. Voluptas quia veritatis suscipit repellat tempora vitae cum
+        aperiam at expedita, placeat incidunt, totam facere dignissimos officiis
+        iure quibusdam.
+      </p>
+    </div>
+    <div class="copyright">
+      <p>&copy; Copyright 2015. Ujang Arisandi</p>
+    </div>
+  </body>
+</html>
