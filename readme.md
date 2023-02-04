@@ -48,3 +48,11 @@
           * background-position: 0 -150px; nol pertama untuk horizontal dan nilai yang kedua vertikal
           * border-bottom: 5px solid lightskyblue;
           * border-top: 5px solid salmon;
+    3.  Content
+        - index.html
+        - style.css
+    4.  Footer & Background-image
+        - index.html
+        - style.css
+        - img/food.png
+          link : https://www.toptal.com/designers/subtlepatterns/tag/doodle/
