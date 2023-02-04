@@ -22,3 +22,11 @@
         - auto
         - hidden
         - scroll
+
+### Box Model
+
+    1.  CSS Box Model terdisi dari:
+        - margin
+        - border
+        - padding
+        - content
