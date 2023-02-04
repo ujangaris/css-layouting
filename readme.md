@@ -30,3 +30,4 @@
         - border
         - padding
         - content
+        - box-sizing
