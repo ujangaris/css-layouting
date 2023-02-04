@@ -56,3 +56,14 @@
         - style.css
         - img/food.png
           link : https://www.toptal.com/designers/subtlepatterns/tag/doodle/
+
+### Float
+
+    Float merupakan properti pada CSS untuk mengatur posisi sebuah element.Jadi sebuah element dapat dipaksa untuk berada di sebelah kiri atau kanan dari parent/ pembungkusnya dengan menggunakan properti ini.
+        - none
+        - left
+        - right
+
+    1.  text wrapping
+        - index.html
+        - img/logo-serepet4.png
