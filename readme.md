@@ -37,3 +37,14 @@
     1.  Header
         - index.html
         - style.css
+    2.  Hero
+        - index.html
+        - img/hero.jpg
+          docs: https://unsplash.com/s/photos/computer
+          gambarnya resize jd 1024 untuk width nanati lebar akan mengikuti
+        - style.css
+          * panggil image : background-image : url('img/hero.jpg')
+          * background-size: cover;
+          * background-position: 0 -150px; nol pertama untuk horizontal dan nilai yang kedua vertikal
+          * border-bottom: 5px solid lightskyblue;
+          * border-top: 5px solid salmon;
