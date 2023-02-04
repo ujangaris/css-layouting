@@ -25,3 +25,5 @@
         - dotted => border 5px doted black
         - dashed => border 5px dashed black
         - double => border 5px double black
+    5.  CSS Reset
+        Docs: https://meyerweb.com/eric/tools/css/reset/
