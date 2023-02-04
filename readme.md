@@ -31,3 +31,9 @@
         - padding
         - content
         - box-sizing
+
+### Website sederhana
+
+    1.  Header
+        - index.html
+        - style.css
