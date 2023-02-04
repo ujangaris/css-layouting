@@ -170,3 +170,24 @@ body {
   border-bottom: 5px solid lightskyblue;
   border-top: 5px solid salmon;
 }
+
+/* content */
+.content {
+  padding: 20px;
+}
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+.content .penulis a {
+  color: salmon;
+  text-decoration: none;
+}
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
