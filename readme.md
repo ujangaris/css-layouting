@@ -84,3 +84,6 @@
         - image-gallery.html
         jika float:right menggunakan clear:right
         jika float:left menggunakan clear:left
+    3.  multi-column layout
+        - multi-column-layout.html
+        jika ada 2 float right dan right gunakan clear both
