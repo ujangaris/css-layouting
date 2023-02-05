@@ -10,3 +10,5 @@
       membuat teks mengelilingi gambar / element lain
     - image gallery
       membuat serangkaian gambar menjadi galeri
+    - multi-column layout
+      membuat halaman memiliki beberapa kolom

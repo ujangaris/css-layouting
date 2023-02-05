@@ -70,3 +70,6 @@
 
     2.  image-gallery
         - image-gallery.html
+
+    3.  multi-column layout
+        - multi-column-layout.html
