@@ -73,3 +73,10 @@
 
     3.  multi-column layout
         - multi-column-layout.html
+
+### Clear
+
+    clear berfungsi untuk menghentikan/membersihkan float : left, right & both
+    1.  text wrapping
+        - index.html
+        - img/logo-serepet4.png
