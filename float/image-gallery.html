@@ -21,7 +21,11 @@
         line-height: 80px;
         font-size: 30px;
         margin: 2px;
-        float: right;
+        float: left;
+      }
+      /* menghentikan float left */
+      .clear {
+        clear: left;
       }
     </style>
   </head>
@@ -34,6 +38,16 @@
       <div class="kotak">5</div>
       <div class="kotak">6</div>
       <div class="kotak">7</div>
+      <div class="kotak">8</div>
+      <div class="kotak">9</div>
+      <div class="kotak">10</div>
+      <!-- disini kita pasang div kosong untuk menghentikan float -->
+      <div class="clear"></div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam eaque
+        nemo obcaecati, doloribus veniam incidunt aliquam fugiat nobis adipisci
+        quo architecto ratione facere quibusdam? Modi ratione vel repellendus
+      </p>
     </div>
   </body>
 </html>

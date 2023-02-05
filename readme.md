@@ -80,3 +80,7 @@
     1.  text wrapping
         - index.html
         - img/logo-serepet4.png
+    2.  image-gallery
+        - image-gallery.html
+        jika float:right menggunakan clear:right
+        jika float:left menggunakan clear:left
