@@ -8,3 +8,5 @@
     yang bisa dilakukan menggunakan properti float
     - text wrapping
       membuat teks mengelilingi gambar / element lain
+    - image gallery
+      membuat serangkaian gambar menjadi galeri
